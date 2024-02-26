@@ -11,7 +11,7 @@ export const Hero = () => {
 
                 <div className='py-3'>
                 <button
-                    className="bg-transparent text-white font-normal py-2 px-8 rounded-full border-solid border-slate-300 border-2 transition-transform duration-100 text-base"
+                    className="bg-transparent text-white font-normal py-2 px-8 rounded-full border-solid border-slate-300 border transition-transform duration-100 text-base"
                     style={{ transform: 'scale(1.0)' }}
                     onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
                     onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1.0)'}
